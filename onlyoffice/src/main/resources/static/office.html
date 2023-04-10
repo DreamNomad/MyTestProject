@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onlyoffice测试</title>
+    <script type="text/javascript" src="http://192.168.192.100:9999/web-apps/apps/api/documents/api.js"></script>
+    <style>
+        body,html{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" style="width: 100%; height: 100%"></div>
+
+    <script>
+        let doc = new DocsAPI.DocEditor("main", {
+            document: {
+                width: "100%",
+                height: "100%",
+                fileType: "docx",
+                key: "9",
+                title: "Example Document Title.docx",
+                url: "http://192.168.0.27:8080/test.docx"
+            },
+            documentType: "text",
+            editorConfig: {
+                callbackUrl: "http://192.168.0.27:8080/onlyoffice/save?fileName=test.docx",
+                lang: "zh-CN",
+                plugins: {
+                    autostart: [],
+                    pluginsData: [
+                        "http://192.168.0.27:8080/config.json"
+                    ]
+                }
+            }
+        });
+    </script>
+</body>
+</html>
