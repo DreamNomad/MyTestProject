@@ -1,0 +1,39 @@
+# Java gitignore #
+.class
+.log
+
+# Package Files #
+
+*.war
+*.ear
+
+# maven gitignore#
+target/**
+
+.svn/
+
+# intelliJ.gitignore #
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Eclipse git ignore#
+*.pydevproject
+.project
+.metadata
+bin/**
+*/bin/**
+tmp/**
+tmp/**/*
+configuration/**
+*.tmp
+*.bak
+*.orig
+*.swp
+*~.nib
+.classpath
+.settings/
+.loadpath
+.fileTable*
+.cache
