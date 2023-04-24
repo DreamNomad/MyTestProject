@@ -1,0 +1,16 @@
+{
+  "guid": "asc.{11700c35-1fdb-4e37-9edb-b31637139601}",
+  "variations": [
+    {
+      "url": "index.html",
+      "EditorsSupport": ["word", "cell", "slide"],
+      "isSystem": true,
+      "initDataType": "none",
+      "initData": "",
+      "buttons": [],
+      "events" : [
+        "onClick"
+      ]
+    }
+  ]
+}
