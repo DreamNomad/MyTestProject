@@ -3,7 +3,7 @@ package org.sgdygb.entity;
 /**
  * 转换
  *
- * @author DengLS
+ * @author VoidAndNullity
  * @date 2023/04/10
  */
 public class Conversion {

@@ -3,7 +3,7 @@ package org.sgdygb.service;
 /**
  * OnlyOffice
  *
- * @author DengLS
+ * @author VoidAndNullity
  * @date 2023/04/10
  */
 public interface OnlyOfficeService {
