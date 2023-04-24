@@ -9,6 +9,7 @@
 
 # maven gitignore#
 target/**
+*/target/**
 
 .svn/
 
